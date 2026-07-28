@@ -1,0 +1,16 @@
+Coloque as fotos aqui.
+
+Nomes esperados pelo HTML (mude se preferir, mas atualize o src):
+
+  hero.jpg          foto de abertura da home (horizontal, alta resolucao)
+  retrato.jpg       seu retrato vertical, pagina Sobre
+  casal-01.jpg      ...
+  casal-02.jpg      demais fotos das colagens e da faixa
+
+Recomendacoes tecnicas:
+
+  hero        2400px de largura, JPEG qualidade 80, mirar em menos de 500 KB
+  demais      1600px no maior lado, JPEG qualidade 80
+
+Vale gerar tambem versoes .webp: pesam cerca de 30% menos com a mesma
+qualidade visual, e todos os navegadores atuais suportam.
