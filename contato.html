@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reservar data — Davi Rodrigues Fotografia</title>
+  <meta name="description" content="Consulte a disponibilidade da sua data. Fotografia de casamento em Taubaté, Vale do Paraíba e Litoral Norte.">
+  <link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+
+<header class="site-head">
+  <a class="brand" href="index.html">Davi Rodrigues</a>
+  <nav class="site-nav micro">
+    <a class="lnk" href="index.html">Início</a>
+    <a class="lnk" href="sobre.html">Sobre</a>
+    <a class="lnk" href="portfolio.html">Portfólio</a>
+    <a class="lnk" href="contato.html" aria-current="page">Reservar data</a>
+  </nav>
+</header>
+
+<main class="ct">
+
+  <div class="ct-media">
+    <video src="assets/video/cta.mp4" autoplay muted loop playsinline preload="metadata"
+           aria-label="Vídeo de um casamento fotografado por Davi Rodrigues"></video>
+  </div>
+
+  <div class="ct-panel">
+
+    <div class="ct-head">
+      <div class="ct-star" aria-hidden="true">
+        <svg viewBox="0 0 60 60" fill="none">
+          <path d="M30 4v52M8 16l44 28M52 16L8 44"/>
+        </svg>
+      </div>
+      <p class="ct-tagline">Conta pra mim o que <em>vocês estão planejando.</em></p>
+      <h1>Luz, câmera,<br>vocês dois</h1>
+    </div>
+
+    <div class="ct-tabs" role="group" aria-label="Tipo de evento">
+      <button type="button" data-tipo="Casamento" aria-pressed="true">Casamento</button>
+      <span class="sep" aria-hidden="true">/</span>
+      <button type="button" data-tipo="Outro evento" aria-pressed="false">Outro evento</button>
+    </div>
+
+    <form class="ct-form" id="ct-form" novalidate>
+      <label class="ct-field">
+        <input type="text" name="nome" placeholder="Seu nome*" required autocomplete="name">
+      </label>
+      <label class="ct-field">
+        <input type="text" name="instagram" placeholder="Instagram" autocomplete="off">
+      </label>
+      <label class="ct-field">
+        <input type="email" name="email" placeholder="E-mail" autocomplete="email">
+      </label>
+      <label class="ct-field">
+        <input type="text" name="cidade" placeholder="Cidade do evento*" required>
+      </label>
+      <label class="ct-field full">
+        <input type="date" name="data" placeholder="Data do evento*" required aria-label="Data do evento">
+      </label>
+      <label class="ct-field full">
+        <input type="text" name="origem" placeholder="Como você me conheceu?">
+      </label>
+      <label class="ct-field full">
+        <textarea name="mensagem" rows="2" placeholder="Mensagem"></textarea>
+      </label>
+
+      <button class="ct-send" type="submit">Consultar minha data</button>
+    </form>
+
+    <p class="ct-fine">
+      O botão abre o WhatsApp com tudo já preenchido — é só enviar.<br>
+      Prefere e-mail? <a href="mailto:contato@davirodrigues.com.br">contato@davirodrigues.com.br</a>
+    </p>
+
+  </div>
+
+</main>
+
+<script src="assets/js/site.js"></script>
+</body>
+</html>

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfólio — Davi Rodrigues Fotografia</title>
+  <meta name="description" content="Casamentos, ensaios, debutantes e aniversários fotografados por Davi Rodrigues no Vale do Paraíba e Litoral Norte.">
+  <link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+
+<header class="site-head">
+  <a class="brand" href="index.html">Davi Rodrigues</a>
+  <nav class="site-nav micro">
+    <a class="lnk" href="index.html">Início</a>
+    <a class="lnk" href="sobre.html">Sobre</a>
+    <a class="lnk" href="portfolio.html" aria-current="page">Portfólio</a>
+    <a class="lnk" href="contato.html">Reservar data</a>
+  </nav>
+</header>
+
+<main>
+
+  <section class="pf-head wrap">
+    <div class="pf-title">
+      <h1>Portfólio</h1>
+      <p class="count">(202)</p>
+    </div>
+
+    <p class="pf-lede">Casamentos, ensaios, debutantes e aniversários. Vale do Paraíba, Litoral Norte e onde mais me chamarem, desde 2014.</p>
+
+    <div class="ink draw" style="--len:1000" aria-hidden="true">
+      <svg viewBox="0 0 200 300" fill="none">
+        <path pathLength="1000" d="M18 12C58 62 28 118 68 150c40 32 84 40 44 80-30 30-70 20-55-10 15-30 78-20 98 18 14 26-10 48-32 44"/>
+      </svg>
+    </div>
+
+  </section>
+
+  <div class="wrap">
+    <div class="pf-filters" role="group" aria-label="Filtrar portfólio">
+      <button type="button" data-filter="todos" aria-pressed="true">Todos</button>
+      <button type="button" data-filter="casamento" aria-pressed="false">Casamentos</button>
+      <button type="button" data-filter="ensaio" aria-pressed="false">Ensaios</button>
+      <button type="button" data-filter="debutante" aria-pressed="false">Debutantes</button>
+      <button type="button" data-filter="aniversario" aria-pressed="false">Aniversários</button>
+    </div>
+  </div>
+
+  <!-- Nomes dos casais e cidades são PLACEHOLDER, exceto Ana e Victor.
+       Trocar por ensaios reais ao publicar. -->
+  <div class="pf-grid" id="pf-grid">
+
+    <figure class="pf-item w4 tall" data-cat="casamento">
+      <div class="ph"><img src="assets/img/exemplo-casamento.jpg" alt="Noivo caminhando pela nave da igreja"></div>
+      <figcaption>
+        <span class="who">Ana e Victor</span>
+        <span class="where micro">Casamento &mdash; Taubaté</span>
+      </figcaption>
+      <a href="#" aria-label="Ver o casamento de Ana e Victor"></a>
+    </figure>
+
+    <figure class="pf-item w4 wide" data-cat="casamento">
+      <div class="ph"><img src="assets/img/exemplo-casamento.jpg" alt=""></div>
+      <figcaption>
+        <span class="who">Casal</span>
+        <span class="where micro">Casamento &mdash; São José dos Campos</span>
+      </figcaption>
+      <a href="#" aria-label="Ver ensaio"></a>
+    </figure>
+
+    <figure class="pf-item w4 tall" data-cat="ensaio">
+      <div class="ph"><img src="assets/img/exemplo-casamento.jpg" alt=""></div>
+      <figcaption>
+        <span class="who">Casal</span>
+        <span class="where micro">Ensaio &mdash; Tremembé</span>
+      </figcaption>
+      <a href="#" aria-label="Ver ensaio"></a>
+    </figure>
+
+    <figure class="pf-item w6 wide" data-cat="casamento">
+      <div class="ph"><img src="assets/img/exemplo-casamento.jpg" alt=""></div>
+      <figcaption>
+        <span class="who">Casal</span>
+        <span class="where micro">Casamento &mdash; Pindamonhangaba</span>
+      </figcaption>
+      <a href="#" aria-label="Ver ensaio"></a>
+    </figure>
+
+    <figure class="pf-item w3 tall" data-cat="debutante">
+      <div class="ph"><img src="assets/img/exemplo-casamento.jpg" alt=""></div>
+      <figcaption>
+        <span class="who">Debutante</span>
+        <span class="where micro">15 anos &mdash; Caçapava</span>
+      </figcaption>
+      <a href="#" aria-label="Ver ensaio"></a>
+    </figure>
+
+    <figure class="pf-item w3 tall" data-cat="ensaio">
+      <div class="ph"><img src="assets/img/exemplo-casamento.jpg" alt=""></div>
+      <figcaption>
+        <span class="who">Casal</span>
+        <span class="where micro">Pré-wedding &mdash; Caraguatatuba</span>
+      </figcaption>
+      <a href="#" aria-label="Ver ensaio"></a>
+    </figure>
+
+    <figure class="pf-item w4 square" data-cat="aniversario">
+      <div class="ph"><img src="assets/img/exemplo-casamento.jpg" alt=""></div>
+      <figcaption>
+        <span class="who">Aniversário</span>
+        <span class="where micro">Festa &mdash; Taubaté</span>
+      </figcaption>
+      <a href="#" aria-label="Ver ensaio"></a>
+    </figure>
+
+    <figure class="pf-item w4 square" data-cat="casamento">
+      <div class="ph"><img src="assets/img/exemplo-casamento.jpg" alt=""></div>
+      <figcaption>
+        <span class="who">Casal</span>
+        <span class="where micro">Casamento civil &mdash; Jacareí</span>
+      </figcaption>
+      <a href="#" aria-label="Ver ensaio"></a>
+    </figure>
+
+    <figure class="pf-item w4 square" data-cat="ensaio">
+      <div class="ph"><img src="assets/img/exemplo-casamento.jpg" alt=""></div>
+      <figcaption>
+        <span class="who">Casal</span>
+        <span class="where micro">Ensaio &mdash; Ubatuba</span>
+      </figcaption>
+      <a href="#" aria-label="Ver ensaio"></a>
+    </figure>
+
+    <figure class="pf-item w6 wide" data-cat="casamento">
+      <div class="ph"><img src="assets/img/exemplo-casamento.jpg" alt=""></div>
+      <figcaption>
+        <span class="who">Casal</span>
+        <span class="where micro">Casamento &mdash; Campos do Jordão</span>
+      </figcaption>
+      <a href="#" aria-label="Ver ensaio"></a>
+    </figure>
+
+    <figure class="pf-item w3 tall" data-cat="debutante">
+      <div class="ph"><img src="assets/img/exemplo-casamento.jpg" alt=""></div>
+      <figcaption>
+        <span class="who">Debutante</span>
+        <span class="where micro">15 anos &mdash; Taubaté</span>
+      </figcaption>
+      <a href="#" aria-label="Ver ensaio"></a>
+    </figure>
+
+    <figure class="pf-item w3 tall" data-cat="aniversario">
+      <div class="ph"><img src="assets/img/exemplo-casamento.jpg" alt=""></div>
+      <figcaption>
+        <span class="who">Aniversário</span>
+        <span class="where micro">Festa infantil &mdash; São José dos Campos</span>
+      </figcaption>
+      <a href="#" aria-label="Ver ensaio"></a>
+    </figure>
+
+  </div>
+
+  <p class="pf-empty micro" id="pf-empty" hidden>Nada nessa categoria ainda.</p>
+
+  <section class="cta inverted">
+    <div class="wrap rev">
+      <p class="mixed">Dois casamentos por <em>mês</em></p>
+      <p class="note">Nunca mais que isso, e nunca dois no mesmo fim de semana. É o que me permite editar cada foto à mão — e estar com a minha família também.</p>
+      <a class="go micro" href="https://wa.me/5512988275053" target="_blank" rel="noopener">Ver se sua data está livre</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-foot">
+  <div class="wrap row">
+    <p class="micro" style="margin:0">&copy; Davi Rodrigues Fotografia</p>
+    <p class="micro micro-light legal" style="margin:0">Todas as imagens deste site são de autoria de Davi Rodrigues e protegidas por direito autoral. O uso depende de autorização por escrito.</p>
+    <p class="micro" style="margin:0">
+      <a class="lnk" href="https://instagram.com/davirfotos" target="_blank" rel="noopener">@davirfotos</a> &nbsp;
+      <a class="lnk" href="https://wa.me/5512988275053" target="_blank" rel="noopener">WhatsApp</a>
+    </p>
+  </div>
+</footer>
+
+<script src="assets/js/site.js"></script>
+</body>
+</html>
